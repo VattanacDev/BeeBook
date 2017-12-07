@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEB4E6E1F6943F60078DA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB4E6D1F6943F60078DA68 /* AppDelegate.swift */; };
+		3FEB4E701F6943F60078DA68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB4E6F1F6943F60078DA68 /* ViewController.swift */; };
+		3FEB4E731F6943F60078DA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB4E711F6943F60078DA68 /* Main.storyboard */; };
+		3FEB4E751F6943F60078DA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB4E741F6943F60078DA68 /* Assets.xcassets */; };
+		3FEB4E781F6943F60078DA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEB4E761F6943F60078DA68 /* LaunchScreen.storyboard */; };
+		3FEB4E801F6954CF0078DA68 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEB4E7F1F6954CF0078DA68 /* mainVC.swift */; };
+		8409C5211F82B74F00C0BA68 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8409C5201F82B74F00C0BA68 /* Info.plist */; };
+		840C18161F77E7C10041E59E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C18151F77E7C00041E59E /* Contact.swift */; };
+		840EB34E1F76D03C00E44DA0 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EB34D1F76D03C00E44DA0 /* MapVC.swift */; };
+		841B383E1F6A378C00A1825B /* mainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B383D1F6A378C00A1825B /* mainCell.swift */; };
+		841B38411F6A5BB000A1825B /* viewDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B38401F6A5BB000A1825B /* viewDetailVC.swift */; };
+		84902AC71F6D87AC009ACDE2 /* viewDetailPhoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84902AC61F6D87AC009ACDE2 /* viewDetailPhoneCell.swift */; };
+		84C93D031F8501440039FAB3 /* privateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C93D021F8501440039FAB3 /* privateVC.swift */; };
+		84C93D051F85014C0039FAB3 /* publicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C93D041F85014C0039FAB3 /* publicVC.swift */; };
+		84DD09B91F6C4C7E0000E919 /* viewDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD09B81F6C4C7E0000E919 /* viewDetailCell.swift */; };
+		84EF7EC41F7580140038C526 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EF7EC31F7580140038C526 /* WebVC.swift */; };
+		D116FB43C19EAD306700291F /* Pods_Camtact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7B829C757C6DD316389ED1 /* Pods_Camtact.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FEB4E6A1F6943F60078DA68 /* Camtact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camtact.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEB4E6D1F6943F60078DA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FEB4E6F1F6943F60078DA68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FEB4E721F6943F60078DA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FEB4E741F6943F60078DA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEB4E771F6943F60078DA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FEB4E7F1F6954CF0078DA68 /* mainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		4C7B829C757C6DD316389ED1 /* Pods_Camtact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Camtact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53D2D05F828C08B3B2F45AB4 /* Pods-Camtact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camtact.release.xcconfig"; path = "Pods/Target Support Files/Pods-Camtact/Pods-Camtact.release.xcconfig"; sourceTree = "<group>"; };
+		8409C5201F82B74F00C0BA68 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C18151F77E7C00041E59E /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		840EB34D1F76D03C00E44DA0 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		841B383D1F6A378C00A1825B /* mainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainCell.swift; sourceTree = "<group>"; };
+		841B38401F6A5BB000A1825B /* viewDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewDetailVC.swift; sourceTree = "<group>"; };
+		84902AC61F6D87AC009ACDE2 /* viewDetailPhoneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewDetailPhoneCell.swift; sourceTree = "<group>"; };
+		84C93D021F8501440039FAB3 /* privateVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = privateVC.swift; sourceTree = "<group>"; };
+		84C93D041F85014C0039FAB3 /* publicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = publicVC.swift; sourceTree = "<group>"; };
+		84DD09B81F6C4C7E0000E919 /* viewDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewDetailCell.swift; sourceTree = "<group>"; };
+		84EF7EC31F7580140038C526 /* WebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		923072AF0ABECF3FC2B24A5C /* Pods-Camtact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Camtact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Camtact/Pods-Camtact.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEB4E671F6943F40078DA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D116FB43C19EAD306700291F /* Pods_Camtact.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEB4E611F6943F40078DA68 = {
+			isa = PBXGroup;
+			children = (
+				3FEB4E6C1F6943F60078DA68 /* Camtact */,
+				3FEB4E6B1F6943F60078DA68 /* Products */,
+				9EF74246A6718C2DA8708B31 /* Pods */,
+				861CDBB2720C9A31BA4EFBFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEB4E6B1F6943F60078DA68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB4E6A1F6943F60078DA68 /* Camtact.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEB4E6C1F6943F60078DA68 /* Camtact */ = {
+			isa = PBXGroup;
+			children = (
+				840C18141F77E75A0041E59E /* Model */,
+				3FEB4E6D1F6943F60078DA68 /* AppDelegate.swift */,
+				841B383F1F6A3CAA00A1825B /* Controller */,
+				3FEB4E711F6943F60078DA68 /* Main.storyboard */,
+				3FEB4E741F6943F60078DA68 /* Assets.xcassets */,
+				3FEB4E761F6943F60078DA68 /* LaunchScreen.storyboard */,
+				8409C5201F82B74F00C0BA68 /* Info.plist */,
+			);
+			path = Camtact;
+			sourceTree = "<group>";
+		};
+		840C18141F77E75A0041E59E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				840C18151F77E7C00041E59E /* Contact.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		841B383F1F6A3CAA00A1825B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FEB4E6F1F6943F60078DA68 /* ViewController.swift */,
+				3FEB4E7F1F6954CF0078DA68 /* mainVC.swift */,
+				84C93D021F8501440039FAB3 /* privateVC.swift */,
+				84C93D041F85014C0039FAB3 /* publicVC.swift */,
+				841B383D1F6A378C00A1825B /* mainCell.swift */,
+				841B38401F6A5BB000A1825B /* viewDetailVC.swift */,
+				84DD09B81F6C4C7E0000E919 /* viewDetailCell.swift */,
+				84902AC61F6D87AC009ACDE2 /* viewDetailPhoneCell.swift */,
+				84EF7EC31F7580140038C526 /* WebVC.swift */,
+				840EB34D1F76D03C00E44DA0 /* MapVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		861CDBB2720C9A31BA4EFBFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C7B829C757C6DD316389ED1 /* Pods_Camtact.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EF74246A6718C2DA8708B31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				923072AF0ABECF3FC2B24A5C /* Pods-Camtact.debug.xcconfig */,
+				53D2D05F828C08B3B2F45AB4 /* Pods-Camtact.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEB4E691F6943F40078DA68 /* Camtact */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEB4E7C1F6943F60078DA68 /* Build configuration list for PBXNativeTarget "Camtact" */;
+			buildPhases = (
+				EB893A69CBD225D5BE9BC803 /* [CP] Check Pods Manifest.lock */,
+				3FEB4E661F6943F40078DA68 /* Sources */,
+				3FEB4E671F6943F40078DA68 /* Frameworks */,
+				3FEB4E681F6943F40078DA68 /* Resources */,
+				5FD2E8832E7D8C03D069C5B0 /* [CP] Embed Pods Frameworks */,
+				C35DF9A44CBA429332F75044 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camtact;
+			productName = Camtact;
+			productReference = 3FEB4E6A1F6943F60078DA68 /* Camtact.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEB4E621F6943F40078DA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CKCC;
+				TargetAttributes = {
+					3FEB4E691F6943F40078DA68 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = G8FFR8W6P6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3FEB4E651F6943F40078DA68 /* Build configuration list for PBXProject "Camtact" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEB4E611F6943F40078DA68;
+			productRefGroup = 3FEB4E6B1F6943F60078DA68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEB4E691F6943F40078DA68 /* Camtact */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEB4E681F6943F40078DA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8409C5211F82B74F00C0BA68 /* Info.plist in Resources */,
+				3FEB4E781F6943F60078DA68 /* LaunchScreen.storyboard in Resources */,
+				3FEB4E751F6943F60078DA68 /* Assets.xcassets in Resources */,
+				3FEB4E731F6943F60078DA68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FD2E8832E7D8C03D069C5B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Camtact/Pods-Camtact-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camtact/Pods-Camtact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35DF9A44CBA429332F75044 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Camtact/Pods-Camtact-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Camtact/Pods-Camtact-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB893A69CBD225D5BE9BC803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Camtact-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEB4E661F6943F40078DA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C18161F77E7C10041E59E /* Contact.swift in Sources */,
+				3FEB4E701F6943F60078DA68 /* ViewController.swift in Sources */,
+				3FEB4E6E1F6943F60078DA68 /* AppDelegate.swift in Sources */,
+				84902AC71F6D87AC009ACDE2 /* viewDetailPhoneCell.swift in Sources */,
+				841B383E1F6A378C00A1825B /* mainCell.swift in Sources */,
+				84C93D051F85014C0039FAB3 /* publicVC.swift in Sources */,
+				84DD09B91F6C4C7E0000E919 /* viewDetailCell.swift in Sources */,
+				84C93D031F8501440039FAB3 /* privateVC.swift in Sources */,
+				84EF7EC41F7580140038C526 /* WebVC.swift in Sources */,
+				841B38411F6A5BB000A1825B /* viewDetailVC.swift in Sources */,
+				840EB34E1F76D03C00E44DA0 /* MapVC.swift in Sources */,
+				3FEB4E801F6954CF0078DA68 /* mainVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FEB4E711F6943F60078DA68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEB4E721F6943F60078DA68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FEB4E761F6943F60078DA68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEB4E771F6943F60078DA68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEB4E7A1F6943F60078DA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEB4E7B1F6943F60078DA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEB4E7D1F6943F60078DA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923072AF0ABECF3FC2B24A5C /* Pods-Camtact.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8FFR8W6P6;
+				INFOPLIST_FILE = Camtact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kh.edu.rupp.ckcc.BeeBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3FEB4E7E1F6943F60078DA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D2D05F828C08B3B2F45AB4 /* Pods-Camtact.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G8FFR8W6P6;
+				INFOPLIST_FILE = Camtact/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kh.edu.rupp.ckcc.BeeBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEB4E651F6943F40078DA68 /* Build configuration list for PBXProject "Camtact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB4E7A1F6943F60078DA68 /* Debug */,
+				3FEB4E7B1F6943F60078DA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEB4E7C1F6943F60078DA68 /* Build configuration list for PBXNativeTarget "Camtact" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEB4E7D1F6943F60078DA68 /* Debug */,
+				3FEB4E7E1F6943F60078DA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEB4E621F6943F40078DA68 /* Project object */;
+}
